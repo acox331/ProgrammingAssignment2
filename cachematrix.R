@@ -49,3 +49,7 @@ cacheSolve(my_matrix)
 
 my_matrix$set(matrix(c(3, 2, 1, 6), 2, 2))
 my_matrix$get()
+
+my_matrix$getInverse()
+
+cacheSolve(my_matrix)
